@@ -1,0 +1,256 @@
+* {
+    font-size: 13px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.carou {
+    width: 90%;
+    color: rgb(172, 187, 226);
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    text-align: Left;
+}
+
+.carou h1 {
+    font-size: 40px;
+    color: white;
+    font-style: oblique;
+}
+
+.carou p {
+    margin: 10px 0px 40px;
+    font-size: 15px;
+    text-align: justify;
+    color: whitesmoke;
+    font-style: oblique;
+
+}
+
+.frontbtn {
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border: 2px solid white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.frontbtn:hover {
+    background-color: darkblue;
+}
+
+@media(max-width: 700px) {
+    .carou h1 {
+        font-size: 62px;
+    }
+
+
+}
+
+.counter {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+}
+
+.employees,
+.customer,
+.design,
+.order {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.counter-count {
+    font-size: 28px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 92px;
+}
+
+.employee-p,
+.customer-p,
+.order-p,
+.design-p {
+    font-size: 20px;
+    color: white;
+}
+
+.professional-programs {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: left;
+    line-height: 42px;
+    margin-top: 30px;
+}
+
+#pps {
+    margin-top: 20px;
+    margin-bottom: 25px;
+
+}
+
+.professional-programs a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.professional-programs p {
+    text-align: center;
+    font-size: 30px;
+}
+
+#tmonial {
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+
+#tmonial img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+}
+
+#tmonial p {
+    padding: 30px 0 10px;
+    font-style: italic;
+    color: black;
+}
+
+.name-box h3 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+}
+
+.name-box p {
+    text-align: center;
+    color: #ffffff;
+    justify-content: justify;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-size: medium;
+}
+
+.elementor-image-carousel-caption {
+    text-decoration-color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: rgb(2, 231, 71);
+}
+
+.swiper-slide-image {
+    width: 50%;
+    height: 20rem;
+    margin-top: 40px;
+}
+
+/* Testimonial */
+
+#Back-blur {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    height: 400px;
+}
+
+#Back-blur h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#Back-blur img {
+    margin-left: 45%;
+    width: 205px;
+    height: 205px;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.Link-anchore a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.Link-anchore a:hover {
+    color: black;
+}
+
+.Link-anchore {
+    list-style-type: none;
+    margin-top: 3px;
+}
+
+.animated-button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #7F181B;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+}
+
+.animated-button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: rgba(195, 184, 184, 0.5);
+    border-radius: 100%;
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
+.animated-button:hover:after {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+    transition: width 0.5s, height 0.5s, opacity 0.5s;
+}
+
+.fa {
+    font-size: 1.5em;
+    margin-right: 5px;
+}
+
+.fa-home:before {
+    content: "";
+}
